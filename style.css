@@ -67,9 +67,19 @@ body.page .author-info {
 .header-widget {
     display: block;
 }
+
+.entry-title {
+    font-size: 2rem;
+}
+
 img.s-square {
 	width:48px;
 	height:48px;
+}
+
+img.friends {
+	width:300px;
+	height:auto;
 }
 
 
