@@ -35,10 +35,6 @@ body.page .author-info {
 	background-color:#f2f2f2;
 }
 
-.ad-sidebar {
-	text-align: center;
-}
-
 .head-ad {
     visibility: visible;
     position: static;
@@ -47,6 +43,7 @@ body.page .author-info {
     max-width: 100%;
     max-height: 90px;
     vertical-align: middle;
+	text-align: center;
 }
 
 .sidebar-ad {
@@ -58,6 +55,9 @@ body.page .author-info {
     max-width: 100%;
     max-height: 250px;
     vertical-align: middle;
+}
+.ad-sidebar {
+	text-align: center;
 }
 
 .disqus-button {
@@ -82,11 +82,10 @@ img.friends {
 	height:auto;
 }
 
-
 @media only screen and (min-width: 1140px) {
-	.site-content {
-		max-width: 1366px;
-	}
+    .site-content {
+        max-width: 1366px
+    }
 }
 
 @media only screen and (min-width: 980px) {
@@ -113,5 +112,8 @@ img.friends {
 	}
 	.head-ad {
 		width:728px;
+	}
+	.ad-sidebar {
+	min-height:250px;
 	}
 }
