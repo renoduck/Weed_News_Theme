@@ -1,0 +1,107 @@
+/*
+ Theme Name:     Weed News
+ Theme URI:      http://www.weednews.co/
+ Description:    Weed News Theme
+ Author:         Jeff
+ Author URI:     http://www.weednews.co/
+ Template:       suri
+ Version:        3.0.0
+*/
+ 
+/* @import url("../suri/style.css"); */
+
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+body.page .author-info {
+  display: none;
+}
+
+@media only screen and (min-width:768px){
+.thumbnails{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1.5em;
+	}
+}
+
+.post-navigation {
+	display:none;
+}
+
+.author-info {
+	background-color:#f2f2f2;
+}
+
+.ad-sidebar {
+	text-align: center;
+}
+
+.head-ad {
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    height: auto;
+    max-width: 100%;
+    max-height: 90px;
+    vertical-align: middle;
+}
+
+.sidebar-ad {
+	visibility: visible;
+    position: static;
+    opacity: 1;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    max-height: 250px;
+    vertical-align: middle;
+}
+
+.disqus-button {
+	width: 100%;
+}
+
+.header-widget {
+    display: block;
+}
+img.s-square {
+	width:48px;
+	height:48px;
+}
+
+
+@media only screen and (min-width: 1140px) {
+	.site-content {
+		max-width: 1366px;
+	}
+}
+
+@media only screen and (min-width: 980px) {
+	.content-sidebar .primary-sidebar {
+		float: right;
+		width: 30.5%;
+		margin-left: 2.5%;
+	}
+
+	.sidebar-content .primary-sidebar {
+		float: left;
+		width: 30.5%;
+		margin-right: 2.5%;
+	}
+	
+	.content-sidebar .content-area {
+		float: left;
+		width: 67%;
+	}
+
+	.sidebar-content .content-area {
+		float: right;
+		width: 67%;
+	}
+	.head-ad {
+		width:728px;
+	}
+}
