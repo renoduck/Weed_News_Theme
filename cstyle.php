@@ -865,15 +865,6 @@ img.s-square {
     .head-ad {
         width: 728px
     }
-    .sidebar-top {
-        visibility: visible;
-        position: static;
-        opacity: 1;
-        height: auto;
-        max-width: 100%;
-        max-height: 250px;
-        vertical-align: middle
-    }
 }
 @media only screen and (min-width: 980px) {
     .site-content {
@@ -1067,13 +1058,6 @@ img.feed-image {
     margin: 0 5px 5px 0
 }
 .head-ad {
-    visibility: visible;
-    position: static;
-    opacity: 1;
-    height: auto;
-    max-width: 100%;
-    max-height: 90px;
-    vertical-align: middle;
     text-align: center
 }
 .rrssb-buttons {
