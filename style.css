@@ -59,7 +59,9 @@ body.page .author-info {
 .ad-sidebar {
 	text-align: center;
 }
-
+.sb-center {
+	text-align: center;
+}
 .disqus-button {
 	width: 100%;
 }
@@ -70,6 +72,8 @@ body.page .author-info {
 
 .entry-title {
     font-size: 2rem;
+	margin-bottom: 5px;
+	line-height: 56px;
 }
 
 img.s-square {
@@ -82,7 +86,7 @@ img.friends {
 	height:auto;
 }
 
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 980px) {
     .site-content {
         max-width: 1366px
     }
