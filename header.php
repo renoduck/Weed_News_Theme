@@ -23,7 +23,6 @@ do_action( 'suri_hook_before_html' ); ?>
 
 <html class="no-js" <?php language_attributes(); ?>>
 <head<?php suri_attr( 'head' );?>>
-<link rel="dns-prefetch" href="http://weedsnews.engine.adglare.net/">
 <link rel="dns-prefetch" href="http://weedsnews.cdn.adglare.net/">
 <?php wp_head(); ?>
 <meta name="theme-color" content="#2f9f46">
