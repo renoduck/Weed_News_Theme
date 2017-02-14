@@ -23,14 +23,13 @@ do_action( 'suri_hook_before_html' ); ?>
 
 <html class="no-js" <?php language_attributes(); ?>>
 <head<?php suri_attr( 'head' );?>>
-<link rel="dns-prefetch" href="http://weedsnews.cdn.adglare.net">
+<link rel="dns-prefetch" href="http://weedsnews.cdn.adglare.net/">
+<link rel="dns-prefetch" href="http://weedsnews.engine.adglare.net/">
 <?php wp_head(); ?>
 <meta name="theme-color" content="#2f9f46">
-<?php include("cstyle.php") ?>
-<?php include("WNGA.php") ?>
+<?php include_once("WNGA.php") ?>
 </head>
 <body<?php suri_attr( 'body' ); ?> <?php body_class(); ?>>
-
 <?php
 /**
  * Fires immediately after opening of main body tag.
